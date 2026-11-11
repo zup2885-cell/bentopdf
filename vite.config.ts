@@ -11,6 +11,12 @@ import { resolve } from 'path';
 import fs from 'fs';
 import { createHash } from 'crypto';
 
+// Azu's public AGPL build. Environment overrides remain supported.
+process.env.VITE_BRAND_NAME ??= '阿祖 PDF 工具';
+process.env.VITE_BRAND_LOGO ??= 'images/azu-pdf.svg';
+process.env.VITE_FOOTER_TEXT ??= '阿祖部署与适配 · 基于 BentoPDF · 保留原作者版权与 AGPL-3.0 许可证';
+
+
 function engineVersion(): string {
   try {
     const dir = resolve(__dirname, 'node_modules/bentopdf-pdfium');

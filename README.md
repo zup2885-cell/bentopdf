@@ -1,3 +1,12 @@
+# 阿祖 PDF 工具
+
+这是阿祖基于 BentoPDF 适配并部署的公开版本。原作者版权、历史和 AGPL-3.0 许可证保留。不是从零原创的 PDF 引擎。
+
+- 使用入口：https://zup2885-cell.github.io/bentopdf/
+- 完整源码与适配说明：[ADAPTATION-AZU.md](ADAPTATION-AZU.md)
+
+---
+
 <p align="center"><img src="public/images/favicon-no-bg.svg" width="80"></p>
 <h1 align="center">BentoPDF</h1>
 <h3 align="center">💖 Thank You to Our Sponsors</h3>

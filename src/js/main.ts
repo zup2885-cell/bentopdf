@@ -149,7 +149,7 @@ const init = async () => {
         const title = toolsHeader.querySelector('h2');
         const subtitle = toolsHeader.querySelector('p');
         if (title) {
-          title.textContent = t('simpleMode.title');
+          title.textContent = __BRAND_NAME__ || t('simpleMode.title');
           title.className = 'text-4xl md:text-5xl font-bold text-white mb-3';
         }
         if (subtitle) {
